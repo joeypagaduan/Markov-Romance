@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Cormorant+Garamond:wght@500&family=Shantell+Sans:wght@300&display=swap');
+
+
+/* font-family: 'Climate Crisis', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Shantell Sans', cursive; */
+
+
+* {
+    background-color: rgb(218, 4, 4);
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 3em;
+    color: white;
+    font-family: 'Climate Crisis', cursive;
+}
+
+#poetry-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Shantell Sans', cursive;
+}
+
+#text-input {
+    text-align: center;
+}
+
+#numbers {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#num-lines {
+    color: white;
+    font-size: 2em;
+    width: 100px;
+}
+
+#line-length {
+    color: white;
+    font-size: 2em;
+    width: 100px;
+}
+
+#generate {
+    border-radius: 360px;
+    width: 150px;
+    height: 50px;
+    margin: 40px;
+}
+
+#poetry-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Shantell Sans', cursive;
+    width: 800px;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.63);
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "./styles.css" />    
+    <title>Markov Generator</title>
+</head>
+<body>
+    <h1>Markov Chain</h1>
+    <form id="poetry-form">
+            <label for="text-input">Enter your text:</label><br>
+            <textarea id="string-input" name="string-input" rows="10" cols="80"></textarea><br>
+        <div id="numbers">
+            <label for="num-lines">Number of lines:</label>
+            <input type="number" id="num-lines" name="num-lines" min="1" max="50"><br>
+            <label for="line-length">Line length:</label>
+            <input type="number" id="line-length" name="line-length" min="1" max="20"><br>
+        </div>
+
+            <button id="generate" type="submit">Generate Poetry</button>
+        
+    </form>
+    <div id="poetry-output"></div>
+
+    <script type="text/javascript" src="./romance.js"></script>
+</body>
+</html>
